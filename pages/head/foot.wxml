@@ -1,0 +1,7 @@
+<template name="foot1">
+{{day}}this is foot 1 {{text}}
+</template>
+
+<template name="foot2">
+{{day}}this is foot 2 {{text}}
+</template>

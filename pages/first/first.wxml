@@ -1,0 +1,17 @@
+<!--first.wxml-->
+<include src="../head/head.wxml"/>
+
+<text>{{text}}</text>
+<button type="default" bindtap="default" hover-class="other-button-hover"> default </button>
+<button type="primary" bindtap="primary"> {{btntext}} </button>
+<view class="classname" wx:if="{{false}}">ssss</view>
+
+<view wx:for="{{['aaa', 'bbb', 'ccc']}}" wx:for-item="news" wx:for-index="ix">
+{{ix}}-{{news}}
+I'm for！
+</view>
+<import src="../head/foot.wxml"/>
+<view>
+<template is="foot1" data="{{day:'2017-',text:'导入设置'}}"></template>
+</view>
+<template is="foot2"></template>
